@@ -5,6 +5,8 @@ import DefaultLayout from './components/common/DefaultLayout';
 import HomeContainer from './containers/home/HomeContainer';
 import BootstrapLayout from './components/bootstrap/common/BootstrapLayout';
 import BootstrapContainer from './containers/bootstrap/BootstrapContainer';
+import MuiLayout from './components/material-ui/common/MuiLayout';
+import MuiContainer from './containers/material-ui/MuiContainer';
 
 function App() {
   return (
@@ -22,6 +24,9 @@ function App() {
       </Route>
       <Route path='bootstrap' element={<BootstrapLayout />}>
         <Route path='' element={<BootstrapContainer />} />
+      </Route>
+      <Route path='mui' element={<MuiLayout />}>
+        <Route path='' element={<MuiContainer />} />
       </Route>
     </Routes>
   );
