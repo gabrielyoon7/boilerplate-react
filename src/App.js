@@ -1,8 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
-import DefaultLayout from './component/common/DefaultLayout';
-import HomeContainer from './container/home/HomeContainer';
+import DefaultLayout from './components/common/DefaultLayout';
+import HomeContainer from './containers/home/HomeContainer';
+import BootstrapLayout from './components/bootstrap/common/BootstrapLayout';
+import BootstrapContainer from './containers/bootstrap/BootstrapContainer';
 
 function App() {
   return (
@@ -17,6 +19,9 @@ function App() {
             </main>
           }
         />
+      </Route>
+      <Route path='bootstrap' element={<BootstrapLayout />}>
+        <Route path='' element={<BootstrapContainer />} />
       </Route>
     </Routes>
   );
