@@ -61,24 +61,25 @@ const items = [
 export const DashboardSidebar = (props) => {
   const { open, onClose } = props;
   const router = null;
-//   const lgUp = useMediaQuery((theme) => theme.breakpoints.up('lg'), {
-//     defaultMatches: true,
-//     noSsr: false
-//   });
+  const lgUp = useMediaQuery((theme) => theme.breakpoints.up('lg'), {
+    defaultMatches: true,
+    noSsr: false
+  });
 
-//   useEffect(
-//     () => {
-//       if (!router.isReady) {
-//         return;
-//       }
+  useEffect(
+    () => {
+      // if (!router.isReady) {
+      //   return;
+      // }
 
-//       if (open) {
-//         onClose?.();
-//       }
-//     },
-//     // eslint-disable-next-line react-hooks/exhaustive-deps
-//     [router.asPath]
-//   );
+      if (open) {
+        onClose?.();
+      }
+    },
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    // [router.asPath]
+    []
+  );
 
   const content = (
     <>
@@ -94,14 +95,7 @@ export const DashboardSidebar = (props) => {
             <Link
               to="/"
             >
-              <a>
-                {/* <Logo
-                  sx={{
-                    height: 42,
-                    width: 42
-                  }}
-                /> */}
-              </a>
+              <div>ㅇㅇ</div>
             </Link>
           </Box>
           <Box sx={{ px: 2 }}>
@@ -213,24 +207,24 @@ export const DashboardSidebar = (props) => {
     </>
   );
 
-//   if (lgUp) {
-//     return (
-//       <Drawer
-//         anchor="left"
-//         open
-//         PaperProps={{
-//           sx: {
-//             backgroundColor: 'neutral.900',
-//             color: '#FFFFFF',
-//             width: 280
-//           }
-//         }}
-//         variant="permanent"
-//       >
-//         {content}
-//       </Drawer>
-//     );
-//   }
+  if (lgUp) {
+    return (
+      <Drawer
+        anchor="left"
+        open
+        PaperProps={{
+          sx: {
+            backgroundColor: 'neutral.900',
+            color: '#FFFFFF',
+            width: 280
+          }
+        }}
+        variant="permanent"
+      >
+        {content}
+      </Drawer>
+    );
+  }
 
   return (
     <Drawer
