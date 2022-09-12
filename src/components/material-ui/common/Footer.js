@@ -1,7 +1,7 @@
 export default () => {
   return (
     <div>
-      bs푸터
+      mui푸터
     </div>
   )
 }
