@@ -1,8 +1,7 @@
 import { useState } from 'react';
-import DashboardNavbar from "./DashboardNavbar"
-import Footer from "./Footer"
 import { Outlet } from "react-router-dom"
-import { Box, styled } from "@mui/material";
+import { Box, Container, Grid, styled } from "@mui/material";
+import DashboardNavbar from './DashboardNavbar';
 import { DashboardSidebar } from './DashboardSidebar';
 
 const DashboardLayoutRoot = styled('div')(({ theme }) => ({
@@ -29,7 +28,7 @@ export default () => {
                         width: '100%'
                     }}
                 >
-                    <Outlet />
+                    <Outlet/>
                 </Box>
             </DashboardLayoutRoot>
             <DashboardNavbar onSidebarOpen={() => setSidebarOpen(true)} />

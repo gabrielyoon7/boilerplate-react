@@ -5,13 +5,11 @@ import DefaultLayout from './components/common/DefaultLayout';
 import HomeContainer from './containers/home/HomeContainer';
 import BootstrapLayout from './components/bootstrap/common/BootstrapLayout';
 import BootstrapContainer from './containers/bootstrap/BootstrapContainer';
-import MuiLayout from './components/material-ui/common/MuiLayout';
-import MuiContainer from './containers/material-ui/MuiContainer';
-// import LocalizationProvider from '@mui/lab/LocalizationProvider';
-// import AdapterDateFns from '@mui/lab/AdapterDateFns';
+import DashboardContainer from './containers/material-ui/DashboardContainer';
 import { ThemeProvider } from '@mui/material/styles';
-import { theme } from './components/material-ui/theme';
+import { theme } from './components/material-ui/dashboard/theme';
 import { CssBaseline } from '@mui/material';
+import MuiDashboardLayout from './components/material-ui/dashboard/layout/MuiDashboardLayout';
 
 function App() {
   return (
@@ -34,8 +32,8 @@ function App() {
           <Route path='' element={<BootstrapContainer />} />
         </Route>
 
-        <Route path='mui' element={<MuiLayout />}>
-          <Route path='' element={<MuiContainer />} />
+        <Route path='mui' element={<MuiDashboardLayout />}>
+          <Route path='' element={<DashboardContainer />} />
         </Route>
 
       </Routes>

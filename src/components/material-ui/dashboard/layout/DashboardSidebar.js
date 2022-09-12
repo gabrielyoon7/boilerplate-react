@@ -13,7 +13,6 @@ import { Users as UsersIcon } from '../icons/users';
 import { XCircle as XCircleIcon } from '../icons/x-circle';
 import { Link } from 'react-router-dom';
 import { NavItem } from './NavItem';
-// import { NavItem } from './nav-item';
 
 const items = [
   {
