@@ -1,7 +1,9 @@
+import { Link } from "react-router-dom"
+
 export default () => {
     return (
         <>
-            ㅇㅇ
+            <Link to="example/components/inputs">Component / Inputs</Link>
         </>
     )
 }

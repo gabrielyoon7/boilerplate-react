@@ -11,6 +11,7 @@ import { theme } from './components/material-ui/dashboard/theme';
 import { CssBaseline } from '@mui/material';
 import MuiDashboardLayout from './components/material-ui/dashboard/layout/MuiDashboardLayout';
 import MainContainer from './containers/material-ui/MainContainer';
+import Inputs from './containers/material-ui/example/components/Inputs';
 
 function App() {
   return (
@@ -35,6 +36,11 @@ function App() {
 
         <Route path='mui' element={<MuiDashboardLayout />}>
           <Route path='' element={<MainContainer />} />
+          <Route path='example'>
+            <Route path='components'>
+              <Route path='inputs' element={<Inputs/>} />
+            </Route>
+          </Route>
           <Route path='dashboard' element={<DashboardContainer />} />
         </Route>
 
