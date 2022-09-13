@@ -11,50 +11,56 @@ import { User as UserIcon } from '../icons/user';
 import { UserAdd as UserAddIcon } from '../icons/user-add';
 import { Users as UsersIcon } from '../icons/users';
 import { XCircle as XCircleIcon } from '../icons/x-circle';
+import { Menu as MenuIcon } from '../icons/menu';
 import { Link } from 'react-router-dom';
 import { NavItem } from './NavItem';
 
 const items = [
   {
-    href: '/',
+    href: '',
+    icon: (<MenuIcon fontSize="small" />),
+    title: 'Main'
+  },
+  {
+    href: 'dashboard',
     icon: (<ChartBarIcon fontSize="small" />),
     title: 'Dashboard'
   },
-  {
-    href: '/customers',
-    icon: (<UsersIcon fontSize="small" />),
-    title: 'Customers'
-  },
-  {
-    href: '/products',
-    icon: (<ShoppingBagIcon fontSize="small" />),
-    title: 'Products'
-  },
-  {
-    href: '/account',
-    icon: (<UserIcon fontSize="small" />),
-    title: 'Account'
-  },
-  {
-    href: '/settings',
-    icon: (<CogIcon fontSize="small" />),
-    title: 'Settings'
-  },
-  {
-    href: '/login',
-    icon: (<LockIcon fontSize="small" />),
-    title: 'Login'
-  },
-  {
-    href: '/register',
-    icon: (<UserAddIcon fontSize="small" />),
-    title: 'Register'
-  },
-  {
-    href: '/404',
-    icon: (<XCircleIcon fontSize="small" />),
-    title: 'Error'
-  }
+  // {
+  //   href: '/customers',
+  //   icon: (<UsersIcon fontSize="small" />),
+  //   title: 'Customers'
+  // },
+  // {
+  //   href: '/products',
+  //   icon: (<ShoppingBagIcon fontSize="small" />),
+  //   title: 'Products'
+  // },
+  // {
+  //   href: '/account',
+  //   icon: (<UserIcon fontSize="small" />),
+  //   title: 'Account'
+  // },
+  // {
+  //   href: '/settings',
+  //   icon: (<CogIcon fontSize="small" />),
+  //   title: 'Settings'
+  // },
+  // {
+  //   href: '/login',
+  //   icon: (<LockIcon fontSize="small" />),
+  //   title: 'Login'
+  // },
+  // {
+  //   href: '/register',
+  //   icon: (<UserAddIcon fontSize="small" />),
+  //   title: 'Register'
+  // },
+  // {
+  //   href: '/404',
+  //   icon: (<XCircleIcon fontSize="small" />),
+  //   title: 'Error'
+  // }
 ];
 
 export const DashboardSidebar = (props) => {
@@ -94,7 +100,7 @@ export const DashboardSidebar = (props) => {
             <Link
               to="/"
             >
-              <div>ㅇㅇ</div>
+              <div>메인으로 돌아가기</div>
             </Link>
           </Box>
           <Box sx={{ px: 2 }}>
@@ -115,15 +121,15 @@ export const DashboardSidebar = (props) => {
                   color="inherit"
                   variant="subtitle1"
                 >
-                  Acme Inc
+                  Material UI
                 </Typography>
                 <Typography
                   color="neutral.400"
                   variant="body2"
                 >
-                  Your tier
+                  테스트
                   {' '}
-                  : Premium
+                  화면입니다
                 </Typography>
               </div>
               <SelectorIcon
