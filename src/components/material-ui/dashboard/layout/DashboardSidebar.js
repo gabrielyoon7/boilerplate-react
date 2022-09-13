@@ -193,20 +193,20 @@ export const DashboardSidebar = (props) => {
               src="/static/images/sidebar_pro.png"
             />
           </Box>
-          <Link
+
+          <Button
+            color="secondary"
+            component="a"
+            endIcon={(<OpenInNewIcon />)}
+            fullWidth
+            sx={{ mt: 2 }}
+            variant="contained"
+          >
+            {/* <Link
             to="https://material-kit-pro-react.devias.io/"
           >
-            <Button
-              color="secondary"
-              component="a"
-              endIcon={(<OpenInNewIcon />)}
-              fullWidth
-              sx={{ mt: 2 }}
-              variant="contained"
-            >
-              Pro Live Preview
-            </Button>
-          </Link>
+              Pro Live Preview</Link> */}
+          </Button>
         </Box>
       </Box>
     </>
