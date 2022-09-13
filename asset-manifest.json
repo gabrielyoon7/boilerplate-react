@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/boilerplate-react/static/css/main.04d2d1b1.css",
-    "main.js": "/boilerplate-react/static/js/main.561ca39c.js",
+    "main.js": "/boilerplate-react/static/js/main.b88e2ad1.js",
     "static/js/787.6cebb76b.chunk.js": "/boilerplate-react/static/js/787.6cebb76b.chunk.js",
     "static/media/bootstrap-icons.woff?": "/boilerplate-react/static/media/bootstrap-icons.e559bf06bc84fd9525e6.woff",
     "static/media/bootstrap-icons.woff2?": "/boilerplate-react/static/media/bootstrap-icons.ea98e12d2d58747f9fc5.woff2",
     "static/media/logo.svg": "/boilerplate-react/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/boilerplate-react/index.html",
     "main.04d2d1b1.css.map": "/boilerplate-react/static/css/main.04d2d1b1.css.map",
-    "main.561ca39c.js.map": "/boilerplate-react/static/js/main.561ca39c.js.map",
+    "main.b88e2ad1.js.map": "/boilerplate-react/static/js/main.b88e2ad1.js.map",
     "787.6cebb76b.chunk.js.map": "/boilerplate-react/static/js/787.6cebb76b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.04d2d1b1.css",
-    "static/js/main.561ca39c.js"
+    "static/js/main.b88e2ad1.js"
   ]
 }
