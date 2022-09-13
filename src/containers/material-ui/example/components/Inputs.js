@@ -5,6 +5,8 @@ import Button from '../../../../components/material-ui/example/components/inputs
 import ButtonGroup from '../../../../components/material-ui/example/components/inputs/ButtonGroup';
 import CheckBox from '../../../../components/material-ui/example/components/inputs/CheckBox';
 import FloatingActionButtons from '../../../../components/material-ui/example/components/inputs/FloatingActionButtons';
+import RadioButton from '../../../../components/material-ui/example/components/inputs/RadioButton';
+import Rating from '../../../../components/material-ui/example/components/inputs/Rating';
 
 
 export default () => {
@@ -25,6 +27,8 @@ export default () => {
                         <ButtonGroup/>
                         <CheckBox/>
                         <FloatingActionButtons/>
+                        <RadioButton/>
+                        <Rating/>
                     </Stack>
                 </Container>
             </Box>
