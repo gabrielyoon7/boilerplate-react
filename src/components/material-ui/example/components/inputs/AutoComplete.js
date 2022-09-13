@@ -28,6 +28,7 @@ export default function () {
                 sx={{ width: 300 }}
                 renderInput={(params) => <TextField {...params} label="Controllable" />}
             />
+            <div>나중에 멀티 셀렉트 예제 추가 예정</div>
         </div>
     );
 }
