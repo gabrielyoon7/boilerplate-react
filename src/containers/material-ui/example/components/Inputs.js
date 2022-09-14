@@ -8,6 +8,7 @@ import FloatingActionButtons from '../../../../components/material-ui/example/co
 import RadioButton from '../../../../components/material-ui/example/components/inputs/RadioButton';
 import Rating from '../../../../components/material-ui/example/components/inputs/Rating';
 import Selects from '../../../../components/material-ui/example/components/inputs/Selects';
+import Sliders from '../../../../components/material-ui/example/components/inputs/Sliders';
 
 
 export default () => {
@@ -31,6 +32,7 @@ export default () => {
                         <RadioButton />
                         <Rating />
                         <Selects />
+                        <Sliders/>
                     </Stack>
                 </Container>
             </Box>
