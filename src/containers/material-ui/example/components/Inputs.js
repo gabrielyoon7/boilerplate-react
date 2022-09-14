@@ -9,6 +9,10 @@ import RadioButton from '../../../../components/material-ui/example/components/i
 import Rating from '../../../../components/material-ui/example/components/inputs/Rating';
 import Selects from '../../../../components/material-ui/example/components/inputs/Selects';
 import Sliders from '../../../../components/material-ui/example/components/inputs/Sliders';
+import Switches from '../../../../components/material-ui/example/components/inputs/Switches';
+import TextFields from '../../../../components/material-ui/example/components/inputs/TextFields';
+import TransferList from '../../../../components/material-ui/example/components/inputs/TransferList';
+import ToggleButtons from '../../../../components/material-ui/example/components/inputs/ToggleButtons';
 
 
 export default () => {
@@ -33,6 +37,10 @@ export default () => {
                         <Rating />
                         <Selects />
                         <Sliders/>
+                        <Switches/>
+                        <TextFields/>
+                        <TransferList/>
+                        <ToggleButtons/>
                     </Stack>
                 </Container>
             </Box>

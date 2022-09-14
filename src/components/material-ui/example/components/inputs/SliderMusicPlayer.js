@@ -212,7 +212,7 @@ export default function SliderMusicPlayer() {
           <VolumeUpRounded htmlColor={lightIconColor} />
         </Stack>
       </Widget>
-      <WallPaper />
+      {/* <WallPaper /> */}
     </Box>
   );
 }
