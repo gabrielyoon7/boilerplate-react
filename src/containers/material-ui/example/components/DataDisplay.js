@@ -3,6 +3,8 @@ import { Box, Container, Grid, Stack } from '@mui/material';
 import Avatars from '../../../../components/material-ui/example/components/data-display/Avatars';
 import Badge from '../../../../components/material-ui/example/components/data-display/Badge';
 import Chips from '../../../../components/material-ui/example/components/data-display/Chips';
+import Divider from '../../../../components/material-ui/example/components/data-display/Divider';
+import Icons from '../../../../components/material-ui/example/components/data-display/Icons';
 
 export default () => {
     return (
@@ -20,6 +22,8 @@ export default () => {
                         <Avatars/>
                         <Badge/>
                         <Chips/>
+                        <Divider/>
+                        <Icons/>
                     </Stack>
                 </Container>
             </Box>
