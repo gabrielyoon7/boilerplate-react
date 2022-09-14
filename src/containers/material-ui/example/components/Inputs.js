@@ -7,6 +7,7 @@ import CheckBox from '../../../../components/material-ui/example/components/inpu
 import FloatingActionButtons from '../../../../components/material-ui/example/components/inputs/FloatingActionButtons';
 import RadioButton from '../../../../components/material-ui/example/components/inputs/RadioButton';
 import Rating from '../../../../components/material-ui/example/components/inputs/Rating';
+import Selects from '../../../../components/material-ui/example/components/inputs/Selects';
 
 
 export default () => {
@@ -24,11 +25,12 @@ export default () => {
                         {/* Stack으로 적당한 거리 두기 가능 */}
                         <AutoComplete />
                         <Button />
-                        <ButtonGroup/>
-                        <CheckBox/>
-                        <FloatingActionButtons/>
-                        <RadioButton/>
-                        <Rating/>
+                        <ButtonGroup />
+                        <CheckBox />
+                        <FloatingActionButtons />
+                        <RadioButton />
+                        <Rating />
+                        <Selects />
                     </Stack>
                 </Container>
             </Box>
