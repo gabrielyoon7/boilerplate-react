@@ -169,32 +169,17 @@ export const DashboardSidebar = (props) => {
             color="neutral.100"
             variant="subtitle2"
           >
-            Need more features?
+            Gabriel Ju Hyun, Yoon
           </Typography>
           <Typography
             color="neutral.500"
             variant="body2"
           >
-            Check out our Pro solution template.
+            2022
           </Typography>
-          <Box
-            sx={{
-              display: 'flex',
-              mt: 2,
-              mx: 'auto',
-              width: '160px',
-              '& img': {
-                width: '100%'
-              }
-            }}
-          >
-            <img
-              alt="Go to pro"
-              src="/static/images/sidebar_pro.png"
-            />
-          </Box>
 
           <Button
+            href="https://gabrielyoon7.github.com/"
             color="secondary"
             component="a"
             endIcon={(<OpenInNewIcon />)}
@@ -202,10 +187,7 @@ export const DashboardSidebar = (props) => {
             sx={{ mt: 2 }}
             variant="contained"
           >
-            {/* <Link
-            to="https://material-kit-pro-react.devias.io/"
-          >
-              Pro Live Preview</Link> */}
+              Open Github
           </Button>
         </Box>
       </Box>

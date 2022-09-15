@@ -5,6 +5,7 @@ import Badge from '../../../../components/material-ui/example/components/data-di
 import Chips from '../../../../components/material-ui/example/components/data-display/Chips';
 import Divider from '../../../../components/material-ui/example/components/data-display/Divider';
 import Icons from '../../../../components/material-ui/example/components/data-display/Icons';
+import Lists from '../../../../components/material-ui/example/components/data-display/Lists';
 
 export default () => {
     return (
@@ -24,6 +25,7 @@ export default () => {
                         <Chips/>
                         <Divider/>
                         <Icons/>
+                        <Lists/>
                     </Stack>
                 </Container>
             </Box>
