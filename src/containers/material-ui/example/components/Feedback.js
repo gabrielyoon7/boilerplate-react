@@ -4,6 +4,8 @@ import Alerts from '../../../../components/material-ui/example/components/feedba
 import Backdrops from '../../../../components/material-ui/example/components/feedback/Backdrops';
 import Dialogs from '../../../../components/material-ui/example/components/feedback/Dialogs';
 import Progress from '../../../../components/material-ui/example/components/feedback/Progress';
+import Skeleton from '../../../../components/material-ui/example/components/feedback/Skeleton';
+import SnackBar from '../../../../components/material-ui/example/components/feedback/SnackBar';
 
 
 export default () => {
@@ -25,6 +27,8 @@ export default () => {
                         <Backdrops/>
                         <Dialogs/>
                         <Progress/>
+                        <Skeleton/>
+                        <SnackBar/>
                     </Stack>
                 </Container>
             </Box>
