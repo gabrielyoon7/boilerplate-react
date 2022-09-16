@@ -6,6 +6,7 @@ import Chips from '../../../../components/material-ui/example/components/data-di
 import Divider from '../../../../components/material-ui/example/components/data-display/Divider';
 import Icons from '../../../../components/material-ui/example/components/data-display/Icons';
 import Lists from '../../../../components/material-ui/example/components/data-display/Lists';
+import Tables from '../../../../components/material-ui/example/components/data-display/Tables';
 
 export default () => {
     return (
@@ -26,6 +27,7 @@ export default () => {
                         <Divider/>
                         <Icons/>
                         <Lists/>
+                        <Tables/>
                     </Stack>
                 </Container>
             </Box>
