@@ -7,6 +7,8 @@ import Divider from '../../../../components/material-ui/example/components/data-
 import Icons from '../../../../components/material-ui/example/components/data-display/Icons';
 import Lists from '../../../../components/material-ui/example/components/data-display/Lists';
 import Tables from '../../../../components/material-ui/example/components/data-display/Tables';
+import Tooltips from '../../../../components/material-ui/example/components/data-display/Tooltips';
+import Typgraphys from '../../../../components/material-ui/example/components/data-display/Typographys';
 
 export default () => {
     return (
@@ -28,6 +30,8 @@ export default () => {
                         <Icons/>
                         <Lists/>
                         <Tables/>
+                        <Tooltips/>
+                        <Typgraphys/>
                     </Stack>
                 </Container>
             </Box>
