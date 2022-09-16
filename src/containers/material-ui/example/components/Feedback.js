@@ -3,6 +3,7 @@ import { Box, Container, Stack } from '@mui/material';
 import Alerts from '../../../../components/material-ui/example/components/feedback/Alerts';
 import Backdrops from '../../../../components/material-ui/example/components/feedback/Backdrops';
 import Dialogs from '../../../../components/material-ui/example/components/feedback/Dialogs';
+import Progress from '../../../../components/material-ui/example/components/feedback/Progress';
 
 
 export default () => {
@@ -23,6 +24,7 @@ export default () => {
                         <Alerts />
                         <Backdrops/>
                         <Dialogs/>
+                        <Progress/>
                     </Stack>
                 </Container>
             </Box>
