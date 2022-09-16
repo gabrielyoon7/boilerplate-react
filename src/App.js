@@ -13,6 +13,7 @@ import MuiDashboardLayout from './components/material-ui/dashboard/layout/MuiDas
 import MainContainer from './containers/material-ui/MainContainer';
 import Inputs from './containers/material-ui/example/components/Inputs';
 import DataDisplay from './containers/material-ui/example/components/DataDisplay';
+import Feedback from './containers/material-ui/example/components/Feedback';
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
             <Route path='components'>
               <Route path='inputs' element={<Inputs />} />
               <Route path='data-display' element={<DataDisplay />} />
+              <Route path='feedback' element={<Feedback />} />
             </Route>
           </Route>
           <Route path='dashboard' element={<DashboardContainer />} />
