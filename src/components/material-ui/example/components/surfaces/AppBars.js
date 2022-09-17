@@ -32,10 +32,10 @@ export default function () {
           </Toolbar>
         </AppBar>
       </Box>
-      <Box sx={{ maxHeight:400 }}>
+      {/* <Box sx={{ maxHeight:400 }}>
         <AppBarHide />
         <AppBarBackToTop />
-      </Box>
+      </Box> */}
     </>
   );
 }
