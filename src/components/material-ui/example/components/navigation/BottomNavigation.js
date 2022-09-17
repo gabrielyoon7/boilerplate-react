@@ -27,9 +27,7 @@ export default function () {
                     <BottomNavigationAction label="Nearby" icon={<LocationOnIcon />} />
                 </BottomNavigation>
             </Box>
-            {/* <Paper> */}
-                <BottomNavigationFixed />
-            {/* </Paper> */}
+            <BottomNavigationFixed />
         </>
     );
 }

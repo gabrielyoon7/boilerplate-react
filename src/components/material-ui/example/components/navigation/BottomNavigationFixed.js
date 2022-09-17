@@ -35,7 +35,6 @@ export default function () {
         <Box sx={{ pb: 7 }} ref={ref}>
             <CssBaseline />
             <List sx={{
-                // display: 'flex',
                 height: 400,
                 overflow: 'auto'
             }}>
