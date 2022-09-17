@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import Typography from '@mui/material/Typography';
-import { Box, Container } from "@mui/material";
+import { Box, Container, Divider } from "@mui/material";
 
 export default () => {
     return (
@@ -13,8 +13,11 @@ export default () => {
                 }}
             >
                 <Container maxWidth={false}>
-
-                    <Typography variant="h2">Components</Typography>
+                    <Typography variant="h1">MUI Cheat Sheet</Typography>
+                    <Box sx={{ mb: 5 }}>
+                        <Link to="https://mui.com/material-ui/getting-started/overview/">공식 문서에서 확인하기</Link>
+                    </Box>
+                    <Typography variant="h3">Components</Typography>
                     <Box
                         sx={{ pl: 3 }}
                     >
