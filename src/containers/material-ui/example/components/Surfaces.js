@@ -3,6 +3,7 @@ import { Box, Container, Grid, Stack } from '@mui/material';
 import Accordions from '../../../../components/material-ui/example/components/surfaces/Accordions';
 import AppBars from '../../../../components/material-ui/example/components/surfaces/AppBars';
 import Cards from '../../../../components/material-ui/example/components/surfaces/Cards';
+import Papers from '../../../../components/material-ui/example/components/surfaces/Papers';
 
 export default () => {
     return (
@@ -20,6 +21,7 @@ export default () => {
                         <Accordions/>
                         <AppBars/>
                         <Cards/>
+                        <Papers/>
                     </Stack>
                 </Container>
             </Box>
