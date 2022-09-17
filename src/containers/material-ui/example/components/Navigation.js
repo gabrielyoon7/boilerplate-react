@@ -4,6 +4,8 @@ import BottomNavigation from '../../../../components/material-ui/example/compone
 import Drawers from '../../../../components/material-ui/example/components/navigation/Drawers';
 import Breadcrumbs from '../../../../components/material-ui/example/components/navigation/Breadcrumbs';
 import Links from '../../../../components/material-ui/example/components/navigation/Links';
+import Menus from '../../../../components/material-ui/example/components/navigation/Menus';
+import Pagination from '../../../../components/material-ui/example/components/navigation/Pagination';
 
 export default () => {
     return (
@@ -19,9 +21,11 @@ export default () => {
                     <Stack spacing={3}>
                         {/* Stack으로 적당한 거리 두기 가능 */}
                         <BottomNavigation/>
-                        {/* <Breadcrumbs/> */}
+                        <Breadcrumbs/>
                         <Drawers/>
                         <Links/>
+                        <Menus/>
+                        <Pagination/>
                     </Stack>
                 </Container>
             </Box>
