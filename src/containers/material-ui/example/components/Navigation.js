@@ -6,6 +6,7 @@ import Breadcrumbs from '../../../../components/material-ui/example/components/n
 import Links from '../../../../components/material-ui/example/components/navigation/Links';
 import Menus from '../../../../components/material-ui/example/components/navigation/Menus';
 import Pagination from '../../../../components/material-ui/example/components/navigation/Pagination';
+import SpeedDial from '../../../../components/material-ui/example/components/navigation/SpeedDial';
 
 export default () => {
     return (
@@ -26,6 +27,7 @@ export default () => {
                         <Links/>
                         <Menus/>
                         <Pagination/>
+                        <SpeedDial/>
                     </Stack>
                 </Container>
             </Box>
