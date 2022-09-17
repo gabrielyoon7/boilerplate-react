@@ -13,25 +13,28 @@ export default () => {
                 }}
             >
                 <Container maxWidth={false}>
-                    <Typography variant="h1">MUI Cheat Sheet</Typography>
+                    <Typography variant="h2">MUI Cheat Sheet</Typography>
                     <Box sx={{ mb: 5 }}>
                         <Link to="https://mui.com/material-ui/getting-started/overview/">공식 문서에서 확인하기</Link>
                     </Box>
-                    <Typography variant="h3">Components</Typography>
+                    <Typography variant="h4">Components</Typography>
                     <Box
                         sx={{ pl: 3 }}
                     >
-                        <Typography variant="h4">
+                        <Typography variant="h5">
                             <Link to="example/components/inputs">Inputs</Link>
                         </Typography>
-                        <Typography variant="h4">
+                        <Typography variant="h5">
                             <Link to="example/components/data-display">DataDisplay</Link>
                         </Typography>
-                        <Typography variant="h4">
+                        <Typography variant="h5">
                             <Link to="example/components/feedback">Feedback</Link>
                         </Typography>
-                        <Typography variant="h4">
+                        <Typography variant="h5">
                             <Link to="example/components/surfaces">Surfaces</Link>
+                        </Typography>
+                        <Typography variant="h5">
+                            <Link to="example/components/navigation">Navigation</Link>
                         </Typography>
                     </Box>
                 </Container>
