@@ -15,7 +15,7 @@ export default () => {
                 <Container maxWidth={false}>
                     <Typography variant="h2">MUI Cheat Sheet</Typography>
                     <Box sx={{ mb: 5 }}>
-                        <Link to="https://mui.com/material-ui/getting-started/overview/">공식 문서에서 확인하기</Link>
+                        <a href="https://mui.com/material-ui/getting-started/overview/" target="_blank">공식 문서에서 확인하기</a>
                     </Box>
                     <Typography variant="h4">Components</Typography>
                     <Box
