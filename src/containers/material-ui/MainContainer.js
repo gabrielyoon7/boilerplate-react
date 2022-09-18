@@ -36,6 +36,9 @@ export default () => {
                         <Typography variant="h5">
                             <Link to="example/components/navigation">Navigation</Link>
                         </Typography>
+                        <Typography variant="h5">
+                            <Link to="example/components/layout">Layout</Link>
+                        </Typography>
                     </Box>
                 </Container>
             </Box>

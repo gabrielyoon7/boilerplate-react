@@ -16,6 +16,7 @@ import DataDisplay from './containers/material-ui/example/components/DataDisplay
 import Feedback from './containers/material-ui/example/components/Feedback';
 import Surfaces from './containers/material-ui/example/components/Surfaces';
 import Navigation from './containers/material-ui/example/components/Navigation';
+import Layout from './containers/material-ui/example/components/Layout';
 
 function App() {
   return (
@@ -47,6 +48,7 @@ function App() {
               <Route path='feedback' element={<Feedback />} />
               <Route path='surfaces' element={<Surfaces/>} />
               <Route path='navigation' element={<Navigation/>} />
+              <Route path='layout' element={<Layout/>} />
             </Route>
           </Route>
           <Route path='dashboard' element={<DashboardContainer />} />
