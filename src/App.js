@@ -17,6 +17,7 @@ import Feedback from './containers/material-ui/example/components/Feedback';
 import Surfaces from './containers/material-ui/example/components/Surfaces';
 import Navigation from './containers/material-ui/example/components/Navigation';
 import Layout from './containers/material-ui/example/components/Layout';
+import CounterApp from './containers/redux/CounterApp';
 
 function App() {
   return (
@@ -34,6 +35,9 @@ function App() {
         />
         <Route path='bootstrap' element={<BootstrapLayout />}>
           <Route path='' element={<BootstrapContainer />} />
+        </Route>
+        <Route path='redux' element={<DefaultLayout/>}>
+          <Route path='counter' element={<CounterApp/>}/>
         </Route>
       </Routes>
 
