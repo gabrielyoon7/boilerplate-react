@@ -4,6 +4,7 @@ import Boxes from '../../../../components/material-ui/example/components/layout/
 import Containers from '../../../../components/material-ui/example/components/layout/Containers';
 import Grids from '../../../../components/material-ui/example/components/layout/Grids';
 import GridsV2 from '../../../../components/material-ui/example/components/layout/GridsV2';
+import Stacks from '../../../../components/material-ui/example/components/layout/Stacks';
 
 export default () => {
     return (
@@ -22,6 +23,7 @@ export default () => {
                         <Containers/>
                         <Grids/>
                         <GridsV2/>
+                        <Stacks/>
                     </Stack>
                 </Container>
             </Box>
