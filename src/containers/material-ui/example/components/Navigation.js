@@ -7,6 +7,8 @@ import Links from '../../../../components/material-ui/example/components/navigat
 import Menus from '../../../../components/material-ui/example/components/navigation/Menus';
 import Pagination from '../../../../components/material-ui/example/components/navigation/Pagination';
 import SpeedDial from '../../../../components/material-ui/example/components/navigation/SpeedDial';
+import Stepper from '../../../../components/material-ui/example/components/navigation/Stepper';
+import Tabs from '../../../../components/material-ui/example/components/navigation/Tabs';
 
 export default () => {
     return (
@@ -28,6 +30,8 @@ export default () => {
                         <Menus/>
                         <Pagination/>
                         <SpeedDial/>
+                        <Stepper/>
+                        <Tabs/>
                     </Stack>
                 </Container>
             </Box>
