@@ -18,49 +18,27 @@ import Surfaces from './containers/material-ui/example/components/Surfaces';
 import Navigation from './containers/material-ui/example/components/Navigation';
 import Layout from './containers/material-ui/example/components/Layout';
 import CounterApp from './containers/redux/CounterApp';
+import homeRoutes from './app/routes/homeRoutes';
+import bootstrapRoutes from './app/routes/bootstrapRoutes';
+import reduxRoutes from './app/routes/reduxRoutes';
+import muiRoutes from './app/routes/muiRoutes';
 
 function App() {
   return (
-    <>
-
-      <Routes>
-        <Route path="/" element={<HomeContainer />} />
-        <Route
-          path="*"
-          element={
-            <main style={{ padding: "1rem" }}>
-              <p>잘못된 요청입니다!</p>
-            </main>
-          }
-        />
-        <Route path='bootstrap' element={<BootstrapLayout />}>
-          <Route path='' element={<BootstrapContainer />} />
-        </Route>
-        <Route path='redux' element={<DefaultLayout/>}>
-          <Route path='counter' element={<CounterApp/>}/>
-        </Route>
-      </Routes>
-
-      <ThemeProvider theme={theme}>
-        <CssBaseline />
-        <Routes>
-          <Route path='mui' element={<MuiDashboardLayout />}>
-            <Route path='' element={<MainContainer />} />
-            <Route path='example'>
-              <Route path='components'>
-                <Route path='inputs' element={<Inputs />} />
-                <Route path='data-display' element={<DataDisplay />} />
-                <Route path='feedback' element={<Feedback />} />
-                <Route path='surfaces' element={<Surfaces />} />
-                <Route path='navigation' element={<Navigation />} />
-                <Route path='layout' element={<Layout />} />
-              </Route>
-            </Route>
-            <Route path='dashboard' element={<DashboardContainer />} />
-          </Route>
-        </Routes>
-      </ThemeProvider>
-    </>
+    <Routes>
+      <Route path="/" element={<DefaultLayout />}>
+        {homeRoutes.map((route) => <Route path={route.path} element={route.element} key={route.path} />)}
+      </Route>
+      <Route path='/bootstrap' element={<BootstrapLayout />}>
+        {bootstrapRoutes.map((route) => <Route path={route.path} element={route.element} key={route.path} />)}
+      </Route>
+      <Route path='/redux' element={<DefaultLayout />}>
+        {reduxRoutes.map((route) => <Route path={route.path} element={route.element} key={route.path} />)}
+      </Route>
+      <Route path='/mui' element={<MuiDashboardLayout />}>
+        {muiRoutes.map((route) => <Route path={route.path} element={route.element} key={route.path} />)}
+      </Route>
+    </Routes>
   );
 }
 
